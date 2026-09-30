@@ -6,7 +6,7 @@ int main(){
     string name;//string for text
     double GPA;//double for numbers with decimals
 cout<<"What is your name?\n";//\n to go to next line
-getline(cin, name);
+getline(cin, name);//getline(input stream, string variable-in this case name)
 cout<<"Hello " <<name<< ", nice to meet you. \n";
 cout<<"What is your GPA?\n";
 cin>>GPA;
